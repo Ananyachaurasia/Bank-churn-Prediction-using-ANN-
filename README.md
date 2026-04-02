@@ -1,6 +1,6 @@
 # Bank-churn-Prediction-using-ANN
 
-A deep learning project that predicts whether a bank customer is likely to churn, built with TensorFlow/Keras and deployed as an interactive web app using Streamlit.
+A deep learning project that predicts whether a bank customer is likely to churn, built with TensorFlow/Keras and  an interactive web app using Streamlit.
 
 ## Model Architecture
 
