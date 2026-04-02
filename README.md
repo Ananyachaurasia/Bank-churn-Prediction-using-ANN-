@@ -2,19 +2,6 @@
 
 A deep learning project that predicts whether a bank customer is likely to churn, built with TensorFlow/Keras and deployed as an interactive web app using Streamlit.
 
-## Project Structure
-```
-├── datapreprocessing.ipynb   # Data preprocessing & ANN model training
-├── prediction.ipynb          # Single customer churn prediction (testing)
-├── app.py                    # Streamlit web application
-├── model.h5                  # Trained Keras model
-├── scaler.pkl                # Fitted StandardScaler
-├── label_encoder_gender.pkl  # Fitted LabelEncoder for Gender
-├── onehot_encoder_geo.pkl    # Fitted OneHotEncoder for Geography
-└── Churn_Modelling.csv       # Dataset
-```
-
-
 ## Model Architecture
 
 The ANN model is built with TensorFlow/Keras:
