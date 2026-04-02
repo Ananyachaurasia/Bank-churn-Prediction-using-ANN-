@@ -3,6 +3,7 @@
 A deep learning project that predicts whether a bank customer is likely to churn, built with TensorFlow/Keras and deployed as an interactive web app using Streamlit.
 
 ## Project Structure
+```
 ├── datapreprocessing.ipynb   # Data preprocessing & ANN model training
 ├── prediction.ipynb          # Single customer churn prediction (testing)
 ├── app.py                    # Streamlit web application
@@ -11,6 +12,7 @@ A deep learning project that predicts whether a bank customer is likely to churn
 ├── label_encoder_gender.pkl  # Fitted LabelEncoder for Gender
 ├── onehot_encoder_geo.pkl    # Fitted OneHotEncoder for Geography
 └── Churn_Modelling.csv       # Dataset
+```
 
 
 ## Model Architecture
@@ -68,7 +70,7 @@ The web app (`app.py`) lets users input customer details through an interactive 
 - Churn probability (0.00 – 1.00)
 - Plain-language prediction: *"The customer is likely to churn"* or *"not likely to churn"*
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository**
 ```bash
@@ -92,17 +94,6 @@ The web app (`app.py`) lets users input customer details through an interactive 
    streamlit run app.py
 ```
 
-## 📦 Requirements
-```
-tensorflow
-streamlit
-pandas
-numpy
-scikit-learn
-pickle-mixin
-```
-
-> You can generate a `requirements.txt` with `pip freeze > requirements.txt` from your virtual environment.
 
 ## Training Monitoring
 
